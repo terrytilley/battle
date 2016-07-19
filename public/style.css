@@ -1,0 +1,22 @@
+body {
+  color: #090707;
+  font-family: 'Lato', sans-serif;
+}
+h1 {
+  color: #30A9DE;
+  font-family: 'Press Start 2P', cursive;
+  margin: 50px 0;
+}
+label {
+  color: #E53A40;
+}
+.btn-primary {
+  background-color: #30A9DE;
+  border-color: #30A9DE;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #278DB9;
+  border-color: #278DB9;
+}
