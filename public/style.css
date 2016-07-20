@@ -20,3 +20,9 @@ label {
   background-color: #278DB9;
   border-color: #278DB9;
 }
+.names {
+  color: #30A9DE;
+  font-size: 24px;
+  font-family: 'Press Start 2P', cursive;
+  margin: 30px 0;
+}
