@@ -13,8 +13,15 @@
     <div class="names text-center">
       <%= @player_1_name %> vs. <%= @player_2_name %>
     </div>
-    <%= @player_2_name %>: <%= $player_2.hit_points %>HP
-    <a class="btn btn-primary" href="/attack">Attack</a>
+    <div class="col-sm-6 text-center">
+      <%= @player_1_name %>: <%= $player_1.hit_points %>HP
+    </div>
+    <div class="col-sm-6 text-center">
+      <%= @player_2_name %>: <%= $player_2.hit_points %>HP
+    </div>
+    <div class="col-sm-12 text-center">
+      <a class="btn btn-primary" href="/attack">Attack</a>
+    </div>
   </div>
 </body>
 </html>
