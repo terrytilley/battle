@@ -11,4 +11,10 @@ describe Game do
       game.attack(player_2)
     end
   end
+
+  describe '#player_2' do
+    it 'retrieves the second player' do
+      expect(game.player_2).to eq player_2
+    end
+  end
 end
